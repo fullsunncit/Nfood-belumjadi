@@ -16,7 +16,7 @@
             session_start();
             $username = $_SESSION['username'];
             if(empty($_SESSION['username'])){
-                header("location:signin.php?pesan=belum_login");
+                header("location:index.php?pesan=belum_login");
             }
         ?>
         <div class="navbar">
@@ -24,7 +24,7 @@
             <nav>
                 <ul>
                     <li><a href="#hero">HOME</a></li>
-                    <li><a href="#produk">PRODUCT</a></li>
+                    <li><a href="shop.php">PRODUCT</a></li>
                     <li><a href="#kontak">CONTACT</a></li>
                 </ul>
             </nav>
@@ -46,7 +46,7 @@
                 <img src="img/f.png" alt="O">
             </div>
         </div>
-        <div id="produk">
+        <!-- <div id="produk">
             <div class="sub">
                 <h2><b>Our Products</b></h2>
                 <h6>Sudah dipastikan lezat dan mengenyangkan ^_^</h6>
@@ -214,7 +214,7 @@
                 </div>
 
             </div> 
-        </div>
+        </div> -->
         <div class="sosmed">
             <div class="sub" style="text align: center;">
                 <h2><b>Our Sosmed</b></h2>
