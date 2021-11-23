@@ -10,8 +10,7 @@ include 'admin.php';
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Produk Nfood</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">		
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -31,7 +30,7 @@ include 'admin.php';
                         <tr>
                             <th>ID Nfood</th>
                             <th>namafood</th>
-                            <th>Jenis</th>
+                            <th>Deskripsi</th>
                             <th>Harga</th>
                             <th>Foto</th>
                             <th>Opsi</th>
@@ -45,7 +44,7 @@ include 'admin.php';
                             <tr class="warning">
                                 <td><?php echo $data['idfood'];?></td>
                                 <td><?php echo $data['namafood'];?></td>
-                                <td><?php echo $data['jenis'];?></td>
+                                <td><?php echo $data['deskripsi'];?></td>
                                 <td><?php echo $data['harga'];?></td>
                                 <td><img style="width:100px; height:auto;" src="img/upload/<?php echo $data['foto']; ?>"></td>
                                 <td >

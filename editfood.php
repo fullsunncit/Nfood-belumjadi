@@ -56,8 +56,8 @@ if (isset($_POST["ubah"])) {
 						<input type="text" name="namafood" value="<?php echo $hasil['namafood'];?>">
 					</div>
 					<div class="form-group">
-						<label>Jenis</label><br>
-						<input type="text" name="jenis" value="<?php echo $hasil['jenis'];?>">
+						<label>Deskripsi</label><br>
+						<input type="text" name="deskripsi" value="<?php echo $hasil['deskripsi'];?>">
 					</div>
 					<div class="form-group">
 						<label>Harga per pcs</label><br>

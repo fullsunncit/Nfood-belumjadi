@@ -49,8 +49,8 @@ if (isset($_POST["tambah"])) {
 				<input type="text" name="namafood" id="namafood" class="form-control bg-light" placeholder="Nama Produk" required>
 			</div>
 			<div class="form-group">
-				<label>Jenis</label><br>
-				<input type="text" name="jenis" id="jenis" class="form-control bg-light" placeholder="Jenis Produk" required>
+				<label>Deskripsi</label><br>
+				<input type="text" name="deskripsi" id="deskripsi" class="form-control bg-light" placeholder="Jenis Produk" required>
 			</div>
 			<div class="form-group"><br>
 				<label>Harga per pcs</label>

@@ -5,7 +5,8 @@ include 'header.php';
 if (isset($_POST["pesanan"])) {
 	if(pesanan($_POST) > 0) {
 		echo "<script>
-			alert('Silahkan Membayar di Norek a.n Rosy 123200001 !!');
+			alert('Silahkan Membayar di Norek a.n Rosy 123200001 !! 
+			dan konfirmasi bukti pembayaran melalui WA 085266844198');
             document.location.href = 'shop.php';
 		</script>";
 	}

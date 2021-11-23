@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Document</title>
+        <title>Home</title>
         <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>

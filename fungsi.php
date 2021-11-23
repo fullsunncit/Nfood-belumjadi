@@ -16,7 +16,7 @@ function tambah($data){
 
     $idfood = ($data["idfood"]);
     $namafood = ($data["namafood"]);
-    $jenis = ($data["jenis"]);
+    $deskripsi = ($data["deskripsi"]);
     $harga = ($data["harga"]);
 
     //upload gambar
@@ -26,7 +26,7 @@ function tambah($data){
     }
 
     //tambah user baru ke database
-    mysqli_query($conn, "INSERT INTO food VALUES ('', '$namafood', '$jenis', '$harga', '$foto' )");
+    mysqli_query($conn, "INSERT INTO food VALUES ('', '$namafood', '$deskripsi', '$harga', '$foto' )");
 
     return mysqli_affected_rows($conn);
 }
@@ -68,7 +68,7 @@ function ubah($data){
 
     $idfood = $_POST['idfood'];
 	$namafood = $_POST['namafood'];	
-	$jenis = $_POST['jenis'];
+	$deskripsi = $_POST['deskripsi'];
 	$harga = $_POST['harga'];
     $fotolama = $_POST['fotolama'];
     
@@ -84,7 +84,7 @@ function ubah($data){
 	$SQL =mysqli_query($conn, "UPDATE `food` SET 
 		
 		`namafood` = '$namafood',
-		`jenis` = '$jenis',
+		`deskripsi` = '$deskripsi',
         `harga` = '$harga',
         `foto` = '$foto' WHERE `food`.`idfood`='$idfood'");
     return $SQL;

@@ -2,11 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In</title>
   <script src="https://kit.fontawesome.com/64d58efce2.js"></script>
   <link rel="stylesheet" href="css1.css" />
-
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
@@ -50,9 +48,9 @@
                 <div class="input-field">
                   <i class="fas fa-lock"></i>
                   <input id="sandi" name="password" type="text" placeholder="Password" />
-                  <span class="eye">
-                    <i id="hide1" class="fas fa-eye"></i>
-                    <i id="hide2" class="fas fa-eye-slash"></i>
+                  <span class="eye" onclick="eyePassword()">
+                    <i id="hide2" class="fas fa-eye"></i>
+                    <i id="hide1" class="fas fa-eye-slash"></i>
                   </span>
                 </div>
                 <p style="color:blue">Belum punya akun?</p>
@@ -72,7 +70,7 @@
         </div>
     </div>
   </div>
-  
+  <script src="script.js"></script>
 </body>
 
 </html>

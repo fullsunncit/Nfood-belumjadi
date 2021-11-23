@@ -23,9 +23,8 @@ include 'header.php' ;
       <div class="rooms">
         <img src="img/upload/<?php echo $data['foto']; ?>" class="img-responsive" style="height:200px; width:200px; margin-left:80px;">
           <div class="info">
-            <h3>Nfood ID : <?php echo $data['idfood']; ?> </h3>
             <p> <b><?php echo $data['namafood']; ?></b></p>
-            <p><?php echo $data['jenis']; ?> </p>
+            <p><?php echo $data['deskripsi']; ?> </p>
             <h3><b>Rp. <?php echo $data['harga']; ?></b></h3>
             <div style="display: flex;">            
               <form action="pesanan.php" method="POST">
